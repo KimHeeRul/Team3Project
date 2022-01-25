@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>goobneMall</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>main</servlet-name><!--이런이름을 붙여준다 -->
+		<servlet-class>/views/main.jsp</servlet-class> <!--이걸 찾아서 -->
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>main</servlet-name> <!--이걸 호출하면 JoinServlet가 호출됨 -->
+		<url-pattern>/main</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>product</servlet-name>
+		<servlet-class>/views/product/product.jsp</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>product</servlet-name>
+		<url-pattern>/product</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>join</servlet-name>
+		<servlet-class>/views/member/join.jsp</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>join</servlet-name>
+		<url-pattern>/join</url-pattern>
+	</servlet-mapping>
+
+	
+
+
+</web-app>

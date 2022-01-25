@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+.wrap {
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-areas: 
+		" main main main main ";
+}
+
+.util {
+	grid-area: util;
+	margin-left: 20%;
+}
+
+main#productMain {
+	grid-area: main;
+	display: grid;
+	/* grid-template:
+    auto/1fr 1fr 1fr; */
+	grid-template-columns: 1fr auto 1fr;
+	grid-template-areas: "aside container aside2"
+}
+
+#productAside {
+	grid-area: aside;
+	display: grid;
+}
+
+#container {
+	grid-area: container;
+	display: grid;
+	grid-template-rows: auto 1fr ; /*추후 상품상세정보 추가 */
+	grid-template-areas: 
+	"path"
+	"prdt";
+}
+
+.path{
+	grid-area: path;
+}
+.prdt{
+	margin-top:10px;
+	grid-area: prdt;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+	"img1 prdtSumRight"
+}
+#img1{
+	grid-area: img1;
+	margin:10px;
+}
+#prdtSumRight{
+	margin:10px;
+	grid-area: prdtSumRight;
+}
+
+
+productAside2 {
+	grid-area: aside2;
+	display: grid;
+}
+
+footer {
+	grid-area: footer;
+}
+
+#addCartListBtn {
+	margin-top: 10%;
+	background-color: #555555;
+	width: 194px;
+	height: 60px;
+	font-size: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+#OrderBtn {
+	margin-top: 10%;
+	background-color: #f9732e;
+	width: 194px;
+	height: 60px;
+	font-size: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+li {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+}
+
+a {
+	color: black;
+	text-decoration-line: none;
+}

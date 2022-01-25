@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+
+}
+
+#header {/*헤더크기*/
+	width: 1040px;
+	height: 120px;
+	margin: 0 auto;
+
+}
+
+.memberInfo { /* 우상단 로그인상태확인 */
+	
+	width: 1040px;
+	height: 30px;
+
+}
+.info {/* 우상단 로그인 폰트크기*/
+	font-size: 15px;
+
+}
+
+
+
+#searchBox{/* 검색창 클릭 안했을때*/
+	background:#f7f7f7;
+}
+
+#searchBox:focus{/* 검색창 클릭 했을때*/
+background:white;
+}
+
+
+
+
+
+#menubtn{/*클릭 메뉴 버튼 크기 설정*/
+	width:208px;
+	height:50px;
+}
+
+#headMenu {/*클릭 메뉴*/
+	float: center;
+	width: 208px;
+	font-size: 25px;
+
+}
+

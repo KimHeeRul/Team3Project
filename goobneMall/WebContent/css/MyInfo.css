@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+.joinBody {
+	margin: 0 auto;
+	text-align: center;
+	width: 1040px;
+}
+
+.joinNavUl {
+	margin-left: 0;
+	display: flex;
+	list-style: none;
+}
+
+.joinTitle{
+	text-align: left;
+}
+.joinTitle > #title{
+    color: #333;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.joinTitle > #sub{
+    color: #333;
+    font-size: 17px;
+	font-weight: 600;
+}
+
+.myInfoForm table{
+	width: 1040px;
+	border-top: 2px solid #ececec;
+	border-bottom:2px solid #ececec;
+}
+.myInfoForm tr{
+	height: 59px;
+}
+
+#joinTrDouble{	
+	height: 118px;
+}
+
+.myInfoForm th{
+	width: 150px;
+	padding: 10px 15px 10px 15px;
+    border-top: 1px solid #ececec;
+    background: #f4f4f4;
+    color: #333;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: left;
+}
+.myInfoForm th span{
+	margin-left: 10px;
+}
+
+.myInfoForm select{
+	height: 28px;
+}
+
+#joinThDouble{
+	width: 150px;
+	padding: 10px 15px 10px 15px;
+    border-top: 1px solid #ececec;
+    background: #f4f4f4;
+    color: #333;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.myInfoForm td{
+    border-top: 1px solid #ececec;
+	text-align: left;	
+	height: 28px;
+	padding: 0px;
+}
+
+
+.MyInfoInput{
+	height: 28px;
+	margin-left: 15px;
+    border: 1px solid #ececec;
+}
+
+
+/* .joinBody input{
+    border: 2px solid #dadada;
+    border-radius: 7px;
+} */
+input.MyInfoInput:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+#MyInfoUpTdLeft label{
+	margin-bottom: 0;
+}
+
+#joinInputEmail{
+	margin-left: 0px;	
+}
+
+.myInfoForm td > button{
+	display: inline-block; /* a 태그 크기값 줄 수 있게 설정*/
+	
+	margin-left: 15px;
+	
+	height: 28px;
+	width: 100px;
+
+	margin-bottom: 2px;
+	
+	font-weight: 600;
+	font-size: 13px;
+	
+	text-align: center;
+	vertical-align: middle;
+	
+	border: none;
+    outline:none;
+	
+	background-color: #bdbdbd;
+	color: white;
+}
+
+.MyInfoUpNote{
+	vertical-align: middle;
+	margin-left: 10px;
+    font-size: 12px;
+	font-weight: 400;
+    color: #999;
+}
+.MyInfoUpNoteRed{
+	vertical-align: middle;
+	margin-left: 10px;
+    font-size: 12px;
+	font-weight: 400;
+    color: #ff634e;
+}
+#joinSelPhon{
+	margin-left: 15px;
+	width: 90px;
+	height: 100%;
+}
+
+.joinInputNum{
+	width: 90px;
+	height: 28px;
+	border: 1px solid #ececec;
+}
+
+
+input.joinInputNum:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+#joinDoubleDiv1{
+	margin-bottom: 15px;
+}
+#joinDoubleDiv1, #joinDoubleDiv2{
+	text-align: left;	
+	height: 28px;
+}
+
+#joinDoubleDiv1 > button, #joinDoubleDiv2 > button, .MyInfoHiddenDIV >button{
+	display: inline-block; /* a 태그 크기값 줄 수 있게 설정*/
+
+	height: 28px;
+	width: 100px;
+
+	margin-bottom: 2px;
+	
+	font-weight: 600;
+	font-size: 13px;
+	
+	text-align: center;
+	vertical-align: middle;
+	
+	 border: none;
+    outline:none;
+	
+	background-color: #bdbdbd;
+	color: white;
+}
+
+.join_bottom_btn{
+	display: inline-block;
+
+    text-align: center;
+    line-height: 28px;
+
+	font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+
+	width: 205px;
+	height: 60px;
+
+	margin: 0 2px;
+
+	border: none;
+    outline:none;
+}
+
+#join_cancel{
+	color: white;
+	background-color:  #333;
+}
+#join_agree{
+	color: white;
+	background-color: #ff634e;	
+}
+
+.joinAgree{
+	text-align: left;
+}
+.joinAgree_all{
+	display: inline-block;
+	zoom:2.0;
+}
+
+.joinAgreeBox{
+	padding: 15px 30px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    position: relative;
+    height: auto;
+    font-size: 13px;
+    color: #666;
+    vertical-align: middle;
+}
+.joinAgreeLine{
+	display: inline-block;
+	height: 30px;
+	vertical-align: top;
+	padding: 5px;
+}
+.joinAgreeBox > span{
+	font-size: 14px;
+	color: #999;
+}
+
+#AgreeChkLarge{
+	font-size: 12px;
+	font-weight: 600;
+	color: #999;
+}
+#AgreeChkSmall{
+	display: inline-block;
+	font-size: 10px;
+	font-weight: normal;
+	color: #999;
+}
+
+.joinAgreeBox_btn{
+	background-color: white;
+	height: 20px;
+	color: #333;
+	padding: 2px;
+	font-size: 12px;
+	border: 1px solid #a4a4a4;
+    outline:none;
+    margin-left: 20px;
+}
+
+.JoinBottom{
+	margin: 40px 0;
+}

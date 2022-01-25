@@ -1,0 +1,851 @@
+@charset "UTF-8";
+
+#container {
+	position: relative;
+	width: 1040px;
+	margin: 0 auto;
+}
+
+div {
+	display: block;
+}
+
+body {
+	color: #666;
+	font-family: 'Cairo', "나눔고딕", Nanum Gothic, "돋움", Dotum, "굴림", Gulim,
+		AppleGothic, Sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	overflow-y: scroll;
+}
+
+#container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.path {
+	padding: 11px 0 10px;
+	line-height: 150%;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.path:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.path>li:first-child {
+	padding-left: 0;
+	background: none;
+}
+
+.path>li {
+	float: left;
+	padding: 0 0 0 25px;
+	background: url(/resources/img/path_icon.png) no-repeat 10px 50%;
+}
+
+.path {
+	padding: 11px 0 10px;
+	line-height: 150%;
+}
+
+.path>li a {
+	color: #666;
+	font-size: 11px;
+}
+
+.path>li a {
+	color: #666;
+	font-size: 11px;
+}
+
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+	pre, a, abbr, address, big, cite, code, del, dfn, em, font, img, ins, q,
+	s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, ul, ol, li,
+	dl, dt, dd, table, caption, tbody, tfoot, thead, tr, th, td, fieldset,
+	form, label, legend, input, button, textarea, select {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.path {
+	padding: 11px 0 10px;
+	line-height: 150%;
+}
+
+.path:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* snb */
+#container.haveSNB #snb {
+	display: block;
+	float: left;
+	width: 158px;
+}
+
+#container #snb {
+	display: none;
+}
+
+#container.haveSNB #contents {
+	float: left;
+	width: 852px;
+	margin: 0 0 0 30px;
+	background: #fff;
+}
+
+#container #contents {
+	min-height: 300px;
+}
+
+#snb .snbTit.mypg {
+	background-image: url(/resources/img/snb_icon_my.png);
+}
+
+#snb .snbTit.mypg {
+	background-image: url(/resources/img/snb_icon_my.png);
+}
+
+#snb .snbTit {
+	padding: 15px 0;
+	background: url(/resources/img/snb_icon_my.png) no-repeat #aca6a1 15px
+		50%;
+	line-height: 23px;
+}
+
+#snb.snbTit {
+	margin-left: 15px;
+	padding: 0 0 0 26px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+h2 {
+	display: block;
+	font-size: 4em;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+	margin: 0 0 0 0.83em !important;
+}
+
+#snb .snbTit h2 a {
+	color: #fff;
+	font-size: 15px;
+}
+
+#snb .snbTit h2 {
+	margin-left: 15px;
+	padding: 0 0 0 26px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#snb ul.snb.haveSub {
+	padding: 0 0 15px 0;
+}
+
+#snb ul.snb {
+	padding: 15px 14px;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	background: #f9f9f9;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+#snb ul.snb.haveSub>li {
+	padding: 15px 14px 5px;
+	border-top: 1px solid #e5e5e5;
+}
+
+#snb ul.snb>li:first-child {
+	margin-top: 0;
+}
+
+#snb ul.snb>li {
+	margin-top: 8px;
+}
+
+#snb ul.snb.haveSub>li {
+	padding: 15px 14px 5px;
+	border-top: 1px solid #e5e5e5;
+}
+
+#snb ul.snb>li {
+	margin-top: 8px;
+}
+
+#container.haveSNB #contents {
+	float: left;
+	width: 852px;
+	margin: 0 0 0 30px;
+	background: #fff;
+}
+
+#container #contents {
+	min-height: 300px;
+}
+
+.titWrap {
+	margin: 0 0 10px;
+}
+
+.titWrap:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.haveSNB .titWrap .pTit {
+	float: left;
+	color: #333;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 28px;
+}
+
+.titWrap .pTit {
+	float: left;
+	color: #333;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 25px;
+}
+
+h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+
+#container.haveSNB #contents {
+	float: left;
+	width: 852px;
+	margin: 0 0 0 30px;
+	background: #fff;
+}
+
+#container #contents {
+	min-height: 300px;
+}
+
+.titWrap {
+	margin: 0 0 10px;
+}
+
+.haveSNB .titWrap .pTit {
+	float: left;
+	color: #333;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 28px;
+}
+
+.titWrap .pTit {
+	float: left;
+	color: #333;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 25px;
+}
+
+.titWrap:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.myShoppingInfo {
+	overflow: hidden;
+	border: 3px solid #666;
+}
+
+.NEWmy .myInfo {
+	float: left;
+	width: 320px;
+}
+
+.myShoppingInfo .myInfo {
+	display: table;
+	height: 62px !important;
+	padding: 10px 10px 10px 10px;
+}
+
+.myInfo {
+	
+}
+
+.myShoppingInfo .myInfo .img {
+	display: table-cell;
+	width: 56px;
+	height: 62px;
+	padding-right: 15px;
+}
+
+.myShoppingInfo .myInfo .img img {
+	width: 61px;
+	height: 62px;
+}
+
+img {
+	vertical-align: middle;
+}
+
+fieldset, img, table, caption, tbody, tfoot, thead, tr, th, td, button,
+	hr {
+	border: 0 none;
+}
+
+.myShoppingInfo .NEWmy .mileage {
+	border: none;
+}
+
+.NEWmy .mileage {
+	float: right;
+	width: 505px;
+}
+
+.myShoppingInfo .mileage {
+	border-left: 1px solid #e7e7e7;
+}
+
+.myShoppingInfo .mileage ul {
+	display: table;
+	margin: 0 auto;
+	padding: 22px 0 0 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.myShoppingInfo .NEWmy .mileage li {
+	width: 126px;
+	border-left: 1px solid #e7e7e7;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.myShoppingInfo .mileage li {
+	position: relative;
+	display: table-cell;
+	width: 120px;
+	height: 50px;
+}
+
+.clB {
+	clear: both;
+}
+
+.myShoppingInfo .NEWmy .status {
+	display: table;
+}
+
+.myShoppingInfo .status {
+	
+}
+
+.flL {
+	float: left;
+}
+
+.myShoppingInfo .status dl {
+	display: table;
+	width: 100%;
+}
+
+.NEWmy dl {
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+
+.myShoppingInfo .status dl:first-child dt {
+	border-top: 1px solid #edeff2;
+}
+
+.myShoppingInfo strong {
+	color: #f9732e;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.myShoppingInfo .status dl dd {
+	display: table-cell;
+	width: 376px;
+	height: 45px;
+	padding-left: 10px;
+	border-top: 1px dotted #e7e7e7;
+	vertical-align: middle;
+}
+
+.myShoppingInfo .status dl dd ul.step li:first-child {
+	padding-left: 0;
+	background: none;
+}
+
+
+
+
+.myShoppingInfo .status dl {
+	display: table;
+	width: 100%;
+}
+
+.myShoppingInfo .status dl dt {
+	display: table-cell;
+	width: 93px;
+	height: 46px;
+	padding-left: 10px;
+	border-top: 1px solid #f4f5f7;
+	background: #edeff2;
+	color: #333;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.myShoppingInfo .status dl dt strong {
+	margin-right: 3px;
+	color: #333;
+}
+
+.myShoppingInfo strong {
+	color: #f9732e;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.myShoppingInfo .status dl dd ul.step li:first-child {
+	padding-left: 0;
+	background: none;
+}
+
+
+
+.myShoppingInfo .status dl dd ul.step li {
+	float: left;
+	padding-left: 15px;
+	background: url(/resources/img/step_arr.png) no-repeat 5px 50%;
+	/* font-weight: bold; */
+}
+
+.myShoppingInfo strong {
+	color: #f9732e;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+}
+	
+.myShoppingInfo .NEWmy .status02 {
+	display: table;
+}
+
+.myShoppingInfo .NEWmy .status02 dl {
+	display: table;
+	width: 100%;
+}
+
+.myShoppingInfo .NEWmy .status02 dl.h95 dt, .myShoppingInfo .status02 dl.h95 dd
+	{
+	height: 93px;
+	padding-top: 15px;
+	vertical-align: top;
+}
+
+.myShoppingInfo .NEWmy .status02 dl:first-child dt {
+	border-top: 1px solid #edeff2;
+}
+
+.myShoppingInfo .NEWmy .status02 dl dt {
+	display: table-cell;
+	width: 70px;
+	height: 45px;
+	padding-left: 10px;
+	border-top: 1px solid #f4f5f7;
+	background: #edeff2;
+	color: #333;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.myShoppingInfo .NEWmy .status02 dl dt strong {
+	margin-right: 3px;
+	color: #333;
+}
+
+.myShoppingInfo strong {
+	color: #f9732e;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+}
+
+.myShoppingInfo .NEWmy .status02 dl dd {
+	display: table-cell;
+	width: 280px;
+	height: 45px;
+	padding-left: 10px;
+	border-top: 1px dotted #e7e7e7;
+	vertical-align: top;
+}
+
+.myShoppingInfo .NEWmy .status02 dl dd ul.list01 li:first-child {
+	margin-top: 0;
+}
+
+.myShoppingInfo .NEWmy .status02 dl dd ul.list01 li {
+	margin-top: 5px;
+	padding-right: 15px;
+}
+
+.list01 li:first-child {
+	margin-top: 0;
+}
+
+.list01 li {
+	margin-top: 4px;
+	padding-left: 8px;
+	background: url(/resources/img/blt_icon03.png) no-repeat 0 8px;
+	color: #666;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.flR {
+	float: right;
+}
+
+.myShoppingInfo .list01 strong {
+	color: #f9732e;
+}
+
+.myShoppingInfo strong {
+	color: #f9732e;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+}
+
+.titWrap.type02 {
+	margin: 27px 0 10px;
+}
+
+.titWrap {
+	margin: 0 0 10px;
+}
+
+.titWrap .tit {
+	display: inline-block;
+	color: #333;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.valB {
+	vertical-align: bottom !important;
+}
+
+.flL {
+	float: left;
+}
+
+.titWrap:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.prdtTbl {
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.myTbl {
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.prdtTbl table {
+	
+}
+
+.myTbl table {
+	
+}
+
+fieldset, img, table, caption, tbody, tfoot, thead, tr, th, td, button,
+	hr {
+	border: 0 none;
+}
+
+#container  table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#container caption {
+	visibility: hidden;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+
+#container address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+}
+
+#container colgroup {
+	display: table-column-group;
+}
+
+
+
+#container col {
+	display: table-column;
+}
+
+#container table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset, img, table, caption, tbody, tfoot, thead, tr, th, td, button,
+	hr {
+	border: 0 none;
+}
+
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+
+.prdtTbl table thead th {
+	padding: 11px 0;
+	background: #f4f4f4;
+	border-left: 1px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+	color: #333;
+	font-size: 12px;
+	text-align: center;
+}
+
+.myTbl table thead th {
+	padding: 11px 0;
+	background: #f4f4f4;
+	color: #333;
+	text-align: center;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+}
+
+fieldset, img, table, caption, tbody, tfoot, thead, tr, th, td, button,
+	hr {
+	border: 0 none;
+}
+
+.titWrap.type06 {
+	margin: 27px 0 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666;
+}
+
+.myInfo ul {
+	display: table;
+	width: 100%;
+}
+
+.myInfo ul li {
+	display: table-cell;
+	width: 33%;
+}
+
+.myInfo ul li:first-child>div {
+	padding-left: 78px;
+	border-left: none;
+}
+
+.myInfo ul li>div.mypage-info {
+	position: relative;
+	padding: 25px 1px 25px 88px;
+	border: 1px solid #e5e5e5;
+	text-align: left;
+	height:105px;
+}
+
+.myInfo ul li>div.mypage-info i.myIcon {
+	position: absolute;
+	top: 28px;
+	left: 30px;
+}
+
+.myIcon.phone {
+	width: 29px;
+	height: 45px;
+	background-position: 100% 0px;
+}
+
+z
+.myInfo ul li div.edit .date {
+	float: left;
+	color: #333;
+	padding-left: 8px;
+	background: url(/resources/img/blt_icon03.png) no-repeat 0 8px;
+}
+
+.myInfo ul li div.edit .btnF {
+	float: right;
+}
+
+
+.myInfo ul li>div.mypage-info i.myIcon {
+	position: absolute;
+	top: 28px;
+	left: 30px;
+}
+
+.myIcon.addr {
+	width: 44px;
+	height: 45px;
+	background-position: 100% -120px;
+}
+
+.myIcon {
+	display: block;
+	background: url(/resources/img/img_my_main.png) no-repeat;
+	padding-left: 10px;
+}
+
+.myInfo ul li>div.mypage-info p.tit {
+	font-weight: bold;
+}
+
+.myInfo ul li>div.mypage-info p {
+	color: #333;
+}
+
+.myInfo ul li>div.edit {
+	overflow: hidden;
+	padding: 5px 15px;
+	border: 1px solid #e5e5e5;
+	border-width: 1px 0;
+	background: #f9f9f9;
+	text-align: center;
+}
+
+.myInfo ul li div.edit .date {
+	float: left;
+	color: #333;
+	font-size:13px;
+	padding-left: 8px;
+	background: url(/resources/img/blt_icon03.png) no-repeat 0 8px;
+}
+
+.myInfo ul li div.edit .btnF {
+	float: right;
+}
+
+.btnF {
+	display: inline-block;
+	height: 18px;
+	padding: 0 10px;
+	border: 1px solid #c8c8c8;
+	background: #fff;
+	color: #666;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.myInfo p {
+	margin-block-end: 0px;
+}
+
+#container h3 {
+	margin: 0px auto 15px;
+	font-size: 26px;
+	color: #272222;
+	text-align: center;
+	font-weight: bold;
+}
+
+#snb li  span {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+#snb ul.snb.haveSub ul.snbDep3 li {
+	margin-top: 5px;
+}

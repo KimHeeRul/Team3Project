@@ -1,0 +1,234 @@
+#my_address {
+	float: left;
+	width: 852px;
+	margin: 0 0 0 30px;
+	position: relative;
+}
+
+#my_address h3 {
+	margin: 0px auto 15px;
+	font-size: 26px;
+	color: #272222;
+	font-weight: bold;
+	text-align: left;
+	float: left;
+	display: inline-block;
+}
+/* 주소추가 top */
+#my_address .addr_top {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#my_address .addr_top span {
+	margin-left: 10px;
+	color: #999;
+}
+
+#my_address .addr_add_btn {
+	padding: 6px 10px;
+	border: 1px solid #c8c8c8;
+	background: #fff;
+	color: #666 !important;
+	font-size: 12px;
+	text-align: center;
+}
+
+#my_address:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+/* 주소 table */
+.addr_table {
+	width: 100%;
+	border-top: 2px solid #d7d7d7;
+	font-size: 12px;
+}
+
+#my_address .addr_table th, .addr_table td {
+	padding: 11px 0;
+}
+
+#my_address .addr_table thead tr {
+	background: #f4f4f4;
+	color: #333;
+	text-align: center;
+}
+
+#my_address #tbody {
+	border-top: 1px solid #dfdfdf;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#my_address .no_addr {
+	text-align: center;
+}
+
+#my_address h3 {
+	margin: 0px auto 15px;
+	font-size: 26px;
+	color: #272222;
+	font-weight: bold;
+	text-align: left;
+	float: left;
+	display: inline-block;
+}
+/* 주소추가 top */
+#my_address .addr_top {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#my_address .addr_top span {
+	margin-left: 10px;
+	color: #999;
+}
+
+
+
+#my_address:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* 주소 table */
+.addr_table {
+	width: 100%;
+	border-top: 2px solid #d7d7d7;
+	font-size: 12px;
+}
+
+#my_address .addr_table th, .addr_table td {
+	padding: 11px 10px;
+}
+#mymodal {
+	
+}
+.modal-content {
+	padding: 40px !important;
+	border: 5px solid #f9732e !important;
+}
+
+.modal-body {
+	position: relative;
+	padding: 0;
+}
+
+.modal-title {
+	width: 100%;
+	text-align: left;
+	padding: 0 0 10px 0;
+	border-bottom: 2px solid #666;
+}
+.close {
+	position: absolute;
+	top: 26px;
+	right: 26px;
+}
+
+.modal-body p {
+	margin-top: 10px;
+}
+
+.addr_table {
+	border-top: 2px solid #e0e0e0;
+	border-bottom: 2px solid #e0e0e0;
+}
+
+.addr_table tr {
+	border-bottom: 1px solid #e0e0e0;
+}
+.addr_table td {
+	padding: 15px;
+	text-align: center;
+}
+.addrname {
+	margin-bottom: 5px;
+	display: block;
+}
+.print_addr_btn {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+}
+.addr_list_btn {
+	    background-color: #bdbdbd;
+	    display: inline-block;
+    min-width: 19px;
+    height: 25px;
+    padding: 2px 6px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+.addrremove {
+	margin-left: 3px;
+}
+.addr_list_ul {
+	margin: 0;
+}
+.addr_list_ul li {
+	text-align: left;
+}
+.addr_table .info {
+	padding: 10px 15px;
+	background: #f4f4f4;
+	color: #333;
+	font-size: 13px;
+}
+.addr_table input {
+	display: inline-block;
+	height: 28px;
+	padding: 4px 0;
+	border-bottom: 1px solid #e0e0e0;
+	border-radius: 0;
+}
+#addr, #addr2 {
+	margin-bottom: 10px;
+}
+.addr_top {
+  text-align: left;
+}
+.addr_top input {
+	float: left;
+	margin-bottom: 10px;
+}
+.modal-footer-btn {
+	margin-top: 30px;
+	margin: 0 auto !important;
+	text-align: center;
+}
+
+#execPostCode {
+	display: inline-block;
+	height: 28px;
+	background: #bdbdbd;
+	color: #fff;
+	font-size: 12px;
+	width: 95px;
+	padding: 5px 0;
+	margin-left: 5px;
+}
+.modal_footer button {
+	width: 130px;
+	height: 45px;
+	padding: 10px 5px;
+	font-size: 15px;
+	line-height: 23px;
+}
+
+.modal_footer button:first-child {
+	border-bottom: 1px solid #494949;
+	background: #494949;
+}
+
+.modal_footer button:last-child {
+	border-bottom: 1px solid #f9732e;
+	background: #f9732e;
+}
