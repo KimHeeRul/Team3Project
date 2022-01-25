@@ -18,7 +18,6 @@
 		<jsp:include page="views/main.jsp" />
 	</main>
 
-
 	<!--bottom-->
 	<jsp:include page="views/footer.jsp" />
 	<!--bottom-->
