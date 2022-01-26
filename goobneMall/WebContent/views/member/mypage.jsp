@@ -276,7 +276,8 @@ user = memlist.get(idx);
 						<thead>
 							<tr>
 								<th scope="col">주문일자/주문번호</th>
-								<th scope="col" colspan="3">구매내역</th>
+								<th scope="col" colspan="2">구매내역</th>
+								<th scope="col">개수</th>
 								<th scope="col">총결제금액</th>
 								<th scope="col">배송구분</th>
 							</tr>
@@ -315,7 +316,7 @@ user = memlist.get(idx);
 								<td
 									style="text-align-last: left; border-top: 1px solid #e0e0e0; border-left: 1px solid #e0e0e0; padding-left: 15px;"
 									width="300px"><a href="/goobneMall/service?command=product&no=<%=data.getPro_no()%>"><%=data.getTitle()%></a></td>
-								<td style="border-top: 1px solid #e0e0e0;"></td>
+						<td style="border-top: 1px solid #e0e0e0;border-left: 1px solid #e0e0e0;"><%=orderlist.get((orderlist.size()-1)-i).getPro_count() %></td>
 								<%String allprice=formatter.format(orderlist.get((orderlist.size()-1)-i).getPro_price() + 3000);%>
 								
 								<td style="border-top: 1px solid #e0e0e0; border-left: 1px solid #e0e0e0;">	<%=allprice%>원</td>

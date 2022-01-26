@@ -112,16 +112,15 @@ public class BuyAction implements Action {
 				if (cartnos[i] != null) {
 					cartno = Integer.parseInt(cartnos[i]);
 				}
-				int price=0;
-					if(Integer.parseInt(coupon)==1){
-						price=(Integer.parseInt(Allprice)-3000)/10;
-						System.out.print(price+"ff");
-					}
-				
 				ProductDTO productData = prodao.getProduct(prono + "");
-				OrderDTO dto = new OrderDTO(id, order_email, prono, productData.getPrice()-Integer.parseInt(reserve)-price , qnt, order_name,
-						order_phone, order_email, reci_name, reci_phone, home_phone, addrnum, addr, detailaddr, msg, 0);
+				int price=0;
+				if(Integer.parseInt(coupon)==1){
+					price=productData.getPrice()/10;
+					
+				}
 				
+				OrderDTO dto = new OrderDTO(id, order_email, prono, (productData.getPrice()-price)*qnt, qnt, order_name,
+						order_phone, order_email, reci_name, reci_phone, home_phone, addrnum, addr, detailaddr, msg, 0);
 				dao.addOrder(dto);
 				prodao.SaleVolumeUpdate(prono, qnt);
 				prodao.inventoryUpdate(prono, qnt);
