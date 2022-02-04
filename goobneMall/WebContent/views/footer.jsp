@@ -58,7 +58,6 @@ color: black;
 				123-45-678910 <span>통신판매업신고번호 :</span> : 제 0000-서울-0000호 <br> <span>전화
 					:</span> 0000-0000 <span>팩스 :</span> 02-0000-0000 <span>개인정보보호책임자 :</span>이그린
 				<span>Email :</span> greenmall@green.com
-				
 			</div>
 			<div class="copyright">
 				<br>Copyright ⓒ 그린몰 2022 All Right Reserved.
