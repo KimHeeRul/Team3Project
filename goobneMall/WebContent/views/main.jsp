@@ -481,6 +481,48 @@ ProductDAO prodao = ProductDAO.getInstance();
 			</div>
 			<div style="clear: both;"></div>
 		</div>
+		
+		
+		<hr style="height: 1px">
+		<div class="main_profile" style="">
+			<!--  3* 4 -->
+			<h2 class="main_product_title"><b>프로필</b></h2>
+			<div class="hotDeal_Banner">
+				<ul class="main_pro_ul">
+					
+						<%
+						String[] name={"김동현","정윤환","김상환"};
+						String[] Pnumber={"010-8987-5887","정윤환","010-5176-0690"};
+						String[] email={"rlaehd97@naver.com","정윤환","ksw110077@gmail.com"};
+						String[] link={"http://rlaehd97.dothome.co.kr/","#","#"};
+						for(int i =0 ; i<3;i++) {
+				%>
+					
+						<li class="main_pro_li">
+						<div class="main_pro_Aimg" >
+							<a href="<%=link[i]%>" title="<%=name[i]%>" style="border-radius: 30px;">
+								<img alt="프로필" style="width: 250px;height: 330px; text-align: center;" 
+								src="/goobneMall/img/profile/<%=i%>.jpg">
+							</a>
+						</div>
+						<div class="Info_wrap">
+							<br>
+							<div class="itemInfo">
+									<a href="<%=link[i]%>"><%=name[i] %></a>
+							</div>
+							
+								<div class="info">
+								<span><b>휴대전화:<%=Pnumber[i] %></b></span> <br>
+								 <span><b>이메일:<%=email[i] %></b></span><br>
+							</div>
+						</div>
+					</li>
+						<%} %>				
+				</ul>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+		
 	
 	
 		
