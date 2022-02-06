@@ -25,7 +25,7 @@ color: black;
 <body>
 	<div class="footer02" style="display: flex; justify-content: center; width: 1040px; margin: 0 auto;">
 		<div class="contactUs" style="margin-right: 40px;">
-			<p class="txt" style="font-size: 60px; height: 30px;">1688-9247</p>
+			<p class="txt" style="font-size: 60px; height: 30px;">1234-0000</p>
 
 			<div class="footerMenu" style="margin-top: 50px;">
 				<span style="font-size: 14px;"><strong class="footerBold">오전
@@ -33,10 +33,10 @@ color: black;
 				
 
 					<ul >
-						<button id="menubtn" class="btn btn-light">자주하는 질문</button>
+						<!-- <button id="menubtn" class="btn btn-light">자주하는 질문</button> -->
 						
 
-						<button id="menubtn" class="btn btn-light" onclick="location.href='/goobneMall/service?command=noticeList&page=1'">공지사항</button>
+						<button style="width: 300px;" id="menubtn" class="btn btn-light" onclick="location.href='/goobneMall/service?command=noticeList&page=1'">공지사항</button>
 						
 					</ul>
 				
@@ -52,14 +52,16 @@ color: black;
 				<li><a href="#none" onclick="footerBusinessPopup();">사업자정보확인</a></li>
 			</ul>
 			<div class="footerInfo" style="font-size: 13px;">
-				<span style="color: #ef5033">그린몰 대표이메일 : greenmall@green.com</span>
-				<br> <span>대표이사 :</span> 김그린 <span>상호 : </span>주식회사 그린몰 <span>주소
-					: </span>서울특별시 강남구 강남대로 428 그린빌딩 <br> <span>사업자등록번호 :</span>
-				123-45-678910 <span>통신판매업신고번호 :</span> : 제 0000-서울-0000호 <br> <span>전화
-					:</span> 0000-0000 <span>팩스 :</span> 02-0000-0000 <span>개인정보보호책임자 :</span>이그린
-				<span>Email :</span> greenmall@green.com
-				
-			</div>
+                <span><b>김동현</b> 010-0000-0000 | 담당파트 : 상품주문 장바구니, 주문내역 조회 등
+                            <a href="https://github.com/KimHeeRul/">GitHub</a>
+                </span><br>
+                <span><b>김상환</b> 010-5176-0690 | 담당파트 : 멤버 전반, 배송지 전반, 게시판 전반 등
+                            <a href="https://github.com/ksw110077/">GitHub</a> 
+                </span><br>
+                <span><b>정윤환</b> 010-0000-0000 | 담당파트 : 적립금, 할인쿠폰, UI 디자인 등
+                            <a href="">GitHub</a> 
+                </span><br>
+            </div>
 			<div class="copyright">
 				<br>Copyright ⓒ 그린몰 2022 All Right Reserved.
 			</div>

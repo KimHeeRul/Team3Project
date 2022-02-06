@@ -190,5 +190,25 @@ public class OrderDAO {
 		}
 		return null;
 	}
+	
+	public int getdeli(ArrayList<OrderDTO> list,String id) {
+		int num=0;
+		try {
+			conn = DBManager.getConnection();
+			String sql = "select* from pro_order where id='"+id+"'";
+			pstmt = conn.prepareStatement(sql);// 연동된 DB에 쿼리를 날릴준비
+			rs = pstmt.executeQuery();// 쿼리를 날려서 ResultSet을 반환 받음
+			while (rs.next()) {
+				if(rs.getInt(18)==0) {
+				num++;
+				}
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return num;
+	}
+	
 		
 }

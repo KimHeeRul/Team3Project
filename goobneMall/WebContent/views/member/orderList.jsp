@@ -237,18 +237,21 @@ System.out.println("orderList length : " + orderlist.size());
 									<%
 									int deliveryChk = 0;
 									int deliveryComplete = 0;
-									for (int i = 0; i < orderlist.size(); i++) {
+									int list =orderdao.getdeli(orderlist,id);
+								/* 	for (int i = 0; i < orderlist.size(); i++) {
+										System.out.print(i);
 										ProductDTO data = prodao.getProduct(orderlist.get(i).getPro_no() + "");
 										if (orderlist.get(i).getDelivery() == 0) {
 											deliveryChk++;
 										} else {
+											
 											deliveryComplete++;
 										}
-									}
+									} */
 									%>
-
-									<li>배송중<strong class="num"><%=deliveryChk%> ></strong></li>
-									<li>배송완료<strong class="num"><%=deliveryComplete%></strong></li>
+									<!--22.02.04 코드개선  -->
+									<li>배송중<strong class="num"><%=list%> ></strong></li>
+									<li>배송완료<strong class="num"><%=orderlist.size()-list%></strong></li>
 								</ul>
 							</dd>
 						</dl>

@@ -230,18 +230,19 @@ user = memlist.get(idx);
 									<%
 									int deliveryChk = 0;
 									int deliveryComplete = 0;
-									for (int i = 0; i < orderlist.size(); i++) {
+									int list =orderdao.getdeli(orderlist,id);
+								/* 	for (int i = 0; i < orderlist.size(); i++) {
 										ProductDTO data = prodao.getProduct(orderlist.get(i).getPro_no() + "");
 										if (orderlist.get(i).getDelivery() == 0) {
 											deliveryChk++;
 										}else{
 											deliveryComplete++;
 										}
-									}
+									} */
 									%>
 
-									<li>배송중<strong class="num"><%=deliveryChk%> ></strong></li>
-									<li>배송완료<strong class="num"><%=deliveryComplete%></strong></li>
+									<li>배송중<strong class="num"><%=list%> ></strong></li>
+									<li>배송완료<strong class="num"><%=orderlist.size()-list%></strong></li>
 								</ul>
 							</dd>
 						</dl>
@@ -287,8 +288,8 @@ user = memlist.get(idx);
 						<tbody id="ord-std-tbody">
 							<%
 							int size=0;
-							if(orderlist.size()>5){
-								size=5;
+							if(orderlist.size()>3){
+								size=3;
 							}else{
 								size=orderlist.size();
 							}
