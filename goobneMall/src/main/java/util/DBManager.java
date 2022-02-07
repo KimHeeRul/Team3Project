@@ -32,8 +32,9 @@ public class DBManager {
 				System.out.println("loginserver 연동성공");
 			}
 		} catch (Exception e) {
+		
 			e.printStackTrace();
-		}
+		} 
 		return conn;
 	}
 }

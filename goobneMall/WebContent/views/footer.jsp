@@ -49,7 +49,7 @@ color: black;
 				<li><a href="/goobneMall/service?command=noticeList&page=1">이용안내</a></li>
 				<li><a href="/goobneMall/service?command=noticeList&page=1">개인정보처리방침</a></li>
 				<li><a href="/goobneMall/service?command=noticeList&page=1">이메일무단수집거부</a></li>
-				<li><a href="#none" onclick="footerBusinessPopup();">사업자정보확인</a></li>
+				<!-- <li><a href="#none" onclick="footerBusinessPopup();">사업자정보확인</a></li> -->
 			</ul>
 			<div class="footerInfo" style="font-size: 13px;">
                 <span><b>김동현</b> 010-0000-0000 | 담당파트 : 상품주문 장바구니, 주문내역 조회 등
@@ -58,7 +58,7 @@ color: black;
                 <span><b>김상환</b> 010-5176-0690 | 담당파트 : 멤버 전반, 배송지 전반, 게시판 전반 등
                             <a href="https://github.com/ksw110077/">GitHub</a> 
                 </span><br>
-                <span><b>정윤환</b> 010-0000-0000 | 담당파트 : 적립금, 할인쿠폰, UI 디자인 등
+                <span><b>정윤환</b> 010-7932-3540 | 담당파트 : 적립금, 할인쿠폰, UI 디자인 등
                             <a href="">GitHub</a> 
                 </span><br>
             </div>

@@ -488,13 +488,13 @@ ProductDAO prodao = ProductDAO.getInstance();
 			<!--  3* 4 -->
 			<h2 class="main_product_title"><b>프로필</b></h2>
 			<div class="hotDeal_Banner">
-				<ul class="main_pro_ul">
+				<ul class="main_pro_ul"style="text-align:center;">
 					
 						<%
-						String[] name={"김동현","정윤환","김상환"};
-						String[] Pnumber={"010-8987-5887","정윤환","010-5176-0690"};
-						String[] email={"rlaehd97@naver.com","정윤환","ksw110077@gmail.com"};
-						String[] link={"http://rlaehd97.dothome.co.kr/","#","#"};
+						String[] name={"김동현","김상환","정윤환"};
+						String[] Pnumber={"010-8987-5887","010-5176-0690","010-7932-3540"};
+						String[] email={"rlaehd97@naver.com","ksw110077@gmail.com","정윤환"};
+						String[] link={"http://rlaehd97.dothome.co.kr/","https://github.com/ksw110077/","정윤환"};
 						for(int i =0 ; i<3;i++) {
 				%>
 					
