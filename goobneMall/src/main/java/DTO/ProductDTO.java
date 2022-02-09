@@ -20,6 +20,20 @@ public class ProductDTO {
 		this.SalesVolume=SalesVolume;
 		this.inventory=inventory;
 	}
+	public ProductDTO(String category, String title, String imgfile, String piece, int weight,
+			int beforePrice,int Discount, int price,String storage,int SalesVolume,int inventory) {
+			this.category = category;
+			this.title = title;
+			this.imgfile = imgfile;
+			this.piece = piece;
+			this.weight = weight;
+			this.beforePrice=beforePrice;
+			this.Discount=Discount;
+			this.price=price;
+			this.storage = storage;
+			this.SalesVolume=SalesVolume;
+			this.inventory=inventory;
+		}
 
 	public int getInventory() {
 		return inventory;

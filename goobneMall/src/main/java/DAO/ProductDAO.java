@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
+import DTO.AddrDTO;
 import DTO.OrderDTO;
 import DTO.ProductDTO;
 import util.DBManager;
@@ -25,6 +26,30 @@ public class ProductDAO {
 
 	private ArrayList<ProductDTO> products = null;
 
+	public void addProduct(ProductDTO product) {
+		try {
+			this.conn = DBManager.getConnection();
+			String sql = "insert into product(category,title,imgfile,piece,weight,beforePrice,Discount,price,storage,SalesVolume,inventory) values(?,?,?,?,?,?,?,?,?,?,?)";// sql
+			this.pstmt = this.conn.prepareStatement(sql);
+			this.pstmt.setString(1, product.getCategory());
+			this.pstmt.setString(2, product.getTitle());
+			this.pstmt.setString(3, product.getImgfile());
+			this.pstmt.setString(4, product.getPiece());
+			this.pstmt.setInt(5, product.getWeight());
+			this.pstmt.setInt(6, product.getPrice());
+			this.pstmt.setInt(7, product.getDiscount());
+			this.pstmt.setInt(8, 0);
+			this.pstmt.setString(9, product.getStorage());
+			this.pstmt.setInt(10, product.getSalesVolume());
+			this.pstmt.setInt(11, product.getInventory());
+			this.pstmt.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	
 	public ArrayList<ProductDTO> getProducts() {
 		products = new ArrayList<ProductDTO>();
 

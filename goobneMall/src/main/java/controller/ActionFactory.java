@@ -1,6 +1,7 @@
 package controller;
 
 import controller.action.Action;
+import controller.action.AddProductAction;
 import controller.action.AddrAddAction;
 import controller.action.AddrAddFormAction;
 import controller.action.AddrDelAction;
@@ -77,6 +78,7 @@ public class ActionFactory {
 		else if(command.equals("DVcomplete")) return new DVcompleteAction();
 		else if(command.equals("upload")) return new UploadAction();
 		else if(command.equals("charging")) return new ChargingAction();
+		else if(command.equals("addProduct")) return new AddProductAction();
 		
 		
 		

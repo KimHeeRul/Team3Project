@@ -21,7 +21,7 @@ public class DBManager {
 			String user="admin";
 			String password="2KFeZTwCZQe2JbzgzhHw";
 //			//아마존 서버 서울
-			
+			 
 			
 //			String url = "jdbc:mysql://localhost:3306/shop?serverTimeZone=UTC";
 //			String user = "root";
